@@ -19,6 +19,40 @@ This project is separated into branches for clean organization:
 * Frontend → UI built with HTML, CSS, JavaScript
 
 ---
+## 📁 Project Structure
+
+```
+Vidzai-Digital/
+│
+├── 📄 main.py                      # FastAPI backend entry point
+├── 📄 classify.py                 # Classification logic
+├── 📄 document_detector.py        # Document detection (YOLOv8)
+├── 📄 image_utils.py              # Image processing utilities
+├── 📄 ocr_service.py              # OCR text extraction
+├── 📄 text_classifier.py          # Text classification
+│
+├── 📄 model_config.json           # Model configuration
+├── 📄 model_metadata.json         # Model metadata
+├── 📄 face_verification_model.joblib  # Face verification model
+├── 📄 yolov8n.pt                  # YOLOv8 model weights
+│
+├── 📄 Address_Detection.ipynb     # Address detection notebook
+├── 📄 document_detection.ipynb    # Document detection notebook
+│
+├── 📄 index.html                  # Main UI
+├── 📄 dashboard.html              # Dashboard
+├── 📄 verification_flow.html      # Verification flow
+├── 📄 analytics.html              # Analytics page
+├── 📄 alerts.html                 # Alerts page
+├── 📄 settings.html               # Settings page
+│
+├── 📄 script.js                   # Frontend logic
+├── 📄 styles.css                  # Styling
+│
+├── 📄 README.md                   # Documentation
+├── 📄 LICENSE                     # MIT License
+```
+
 
 ⚙️ How to Access the Project
 
