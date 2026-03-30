@@ -1,24 +1,25 @@
-🚀 Vidzai Digital eKYC Project
+# 🚀 Vidzai Digital eKYC Project
 
-«AI-powered eKYC system for digital identity verification using Machine Learning, Backend, and Frontend»
+> AI-powered eKYC system for digital identity verification using Machine Learning, Backend, and Frontend
 
 ---
 
-🌐 Live Demo
+## 🌐 Live Demo
 
 🔗 https://vidz-ai-git-frontend-daves-projects-f7f915af.vercel.app/
 
 ---
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 This project is separated into branches for clean organization:
 
-* main → Core machine learning notebooks and documentation
-* backend → FastAPI backend, APIs, deployment, Docker
-* Frontend → UI built with HTML, CSS, JavaScript
+main → Core machine learning notebooks and documentation
+backend → FastAPI backend, APIs, deployment, Docker
+Frontend → UI built with HTML, CSS, JavaScript
 
 ---
+
 ## 📁 Project Structure
 
 ```
@@ -53,54 +54,58 @@ Vidzai-Digital/
 ├── 📄 LICENSE                     # MIT License
 ```
 
+---
 
-⚙️ How to Access the Project
+## ⚙️ How to Access the Project
 
-🔹 Clone Backend
+### 🔹 Clone Backend
 
+```bash
 git clone -b backend https://github.com/gksiddineni/Vidzai-Digital.git
+```
 
-🔹 Clone Frontend
+### 🔹 Clone Frontend
 
+```bash
 git clone -b Frontend https://github.com/gksiddineni/Vidzai-Digital.git
+```
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-* Python 🐍
-* FastAPI ⚡
-* HTML / CSS / JavaScript 🌐
-* Machine Learning 🤖
-
----
-
-🚀 Features
-
-* ✅ Digital eKYC verification
-* ✅ Backend APIs using FastAPI
-* ✅ Frontend UI for user interaction
-* ✅ ML models for identity validation
-* ✅ Secure and scalable architecture
-
+Python 🐍
+FastAPI ⚡
+HTML / CSS / JavaScript 🌐
+Machine Learning 🤖
 
 ---
 
-👨‍💻 Author
+## 🚀 Features
+
+✅ Digital eKYC verification
+✅ Backend APIs using FastAPI
+✅ Frontend UI for user interaction
+✅ ML models for identity validation
+✅ Secure and scalable architecture
+
+---
+
+## 👨‍💻 Author
 
 Gopala Krishna Siddineni
 🔗 https://github.com/gksiddineni
 
 ---
 
-⭐ Notes
+## ⭐ Notes
 
-* Switch branches to access different modules
-* Install dependencies before running backend
-* Recommended: use virtual environment
+Switch branches to access different modules
+Install dependencies before running backend
+Recommended: use virtual environment
 
 ---
 
-⭐ Support
+## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
