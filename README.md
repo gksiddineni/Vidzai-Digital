@@ -25,50 +25,50 @@ This project is separated into branches for clean organization:
 ```
 Vidzai-Digital/
 │
-├── 📄 main.py                      # FastAPI backend entry point
-├── 📄 classify.py                 # Classification logic
-├── 📄 document_detector.py        # Document detection (YOLOv8)
-├── 📄 image_utils.py              # Image processing utilities
-├── 📄 ocr_service.py              # OCR text extraction
-├── 📄 text_classifier.py          # Text classification
+├── 🐍 main.py                      # FastAPI backend entry point
+├── 🐍 classify.py                 # Classification logic
+├── 🐍 document_detector.py        # Document detection (YOLOv8)
+├── 🐍 image_utils.py              # Image processing utilities
+├── 🐍 ocr_service.py              # OCR text extraction
+├── 🐍 text_classifier.py          # Text classification
 │
-├── 📄 model_config.json           # Model configuration
-├── 📄 model_metadata.json         # Model metadata
-├── 📄 face_verification_model.joblib  # Face verification model
-├── 📄 yolov8n.pt                  # YOLOv8 model weights
+├── 📦 model_config.json           # Model configuration
+├── 📦 model_metadata.json         # Model metadata
+├── 🤖 face_verification_model.joblib  # Face verification model
+├── 🧠 yolov8n.pt                  # YOLOv8 model weights
 │
-├── 📄 Address_Detection.ipynb     
-├── 📄 document_detection.ipynb    
-├── 📄 tampering dataset (2).ipynb 
-├── 📄 tampmodeltraining.ipynb     
+├── 📓 Address_Detection.ipynb     
+├── 📓 document_detection.ipynb    
+├── 📓 tampering dataset (2).ipynb 
+├── 📓 tampmodeltraining.ipynb     
 │
-├── 📄 index.html                  # Frontend entry page
-├── 📄 dashboard.html              
-├── 📄 verification_flow.html      
-├── 📄 analytics.html              
-├── 📄 alerts.html                 
-├── 📄 settings.html               
+├── 🌐 index.html                  # Frontend entry page
+├── 🌐 dashboard.html              
+├── 🌐 verification_flow.html      
+├── 🌐 analytics.html              
+├── 🌐 alerts.html                 
+├── 🌐 settings.html               
 │
-├── 📄 script.js                   # Frontend logic
-├── 📄 styles.css                  # Frontend styling
+├── ⚡ script.js                   # Frontend logic
+├── 🎨 styles.css                  # Frontend styling
 │
-├── 📄 requirements.txt            # Backend dependencies
-├── 📄 .env                        # Environment variables
-├── 📄 .dockerignore               
-├── 📄 Dockerfile                  # Deployment config
+├── 📜 requirements.txt            # Python dependencies
+├── 🔐 .env                        # Environment variables
+├── ⚙️ .dockerignore               
+├── 🐳 Dockerfile                  # Docker configuration
 │
-├── 📄 deploy.sh                   
-├── 📄 deploy-vidzai.sh            
-├── 📄 deploy-vidzai.ps1           
-├── 📄 cloudbuild.yaml             
-├── 📄 init_db.sql                 
+├── 🚀 deploy.sh                   
+├── 🚀 deploy-vidzai.sh            
+├── 🪟 deploy-vidzai.ps1           
+├── ☁️ cloudbuild.yaml             
+├── 🗄️ init_db.sql                 
 │
-├── 📄 DEPLOYMENT_GUIDE.md         
-├── 📄 DEPLOY_NOW.md               
-├── 📄 QUICK_DEPLOY.txt            
+├── 📘 DEPLOYMENT_GUIDE.md         
+├── 📘 DEPLOY_NOW.md               
+├── 📘 QUICK_DEPLOY.txt            
 │
-├── 📄 README.md                   
-└── 📄 LICENSE
+├── 📖 README.md                   
+└── 📜 LICENSE
 ```
 
 ---
