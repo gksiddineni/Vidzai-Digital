@@ -1,16 +1,16 @@
-# 🚀 Vidzai Digital eKYC Project
+🚀 Vidzai Digital eKYC Project
 
-> AI-powered eKYC system for digital identity verification using Machine Learning, Backend, and Frontend
+«AI-powered eKYC system for digital identity verification using Machine Learning, Backend, and Frontend»
 
 ---
 
-## 🌐 Live Demo
+🌐 Live Demo
 
 🔗 https://vidz-ai-git-frontend-daves-projects-f7f915af.vercel.app/
 
 ---
 
-## 📂 Repository Structure
+📂 Repository Structure
 
 This project is separated into branches for clean organization:
 
@@ -20,9 +20,8 @@ Frontend → UI built with HTML, CSS, JavaScript
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
-```
 Vidzai-Digital/
 │
 ├── 📄 main.py                      # FastAPI backend entry point
@@ -37,42 +36,54 @@ Vidzai-Digital/
 ├── 📄 face_verification_model.joblib  # Face verification model
 ├── 📄 yolov8n.pt                  # YOLOv8 model weights
 │
-├── 📄 Address_Detection.ipynb     # Address detection notebook
-├── 📄 document_detection.ipynb    # Document detection notebook
+├── 📄 Address_Detection.ipynb     
+├── 📄 document_detection.ipynb    
+├── 📄 tampering dataset (2).ipynb 
+├── 📄 tampmodeltraining.ipynb     
 │
-├── 📄 index.html                  # Main UI
-├── 📄 dashboard.html              # Dashboard
-├── 📄 verification_flow.html      # Verification flow
-├── 📄 analytics.html              # Analytics page
-├── 📄 alerts.html                 # Alerts page
-├── 📄 settings.html               # Settings page
+├── 📄 index.html                  
+├── 📄 dashboard.html              
+├── 📄 verification_flow.html      
+├── 📄 analytics.html              
+├── 📄 alerts.html                 
+├── 📄 settings.html               
 │
-├── 📄 script.js                   # Frontend logic
-├── 📄 styles.css                  # Styling
+├── 📄 script.js                   
+├── 📄 styles.css                  
 │
-├── 📄 README.md                   # Documentation
-├── 📄 LICENSE                     # MIT License
-```
+├── 📄 requirements.txt            # Python dependencies
+├── 📄 .env                        # Environment variables
+├── 📄 .dockerignore               
+├── 📄 Dockerfile                  # Docker configuration
+│
+├── 📄 deploy.sh                   
+├── 📄 deploy-vidzai.sh            
+├── 📄 deploy-vidzai.ps1           
+├── 📄 cloudbuild.yaml             
+├── 📄 init_db.sql                 
+│
+├── 📄 DEPLOYMENT_GUIDE.md         
+├── 📄 DEPLOY_NOW.md               
+├── 📄 QUICK_DEPLOY.txt            
+│
+├── 📄 README.md                   
+├── 📄 LICENSE                     
 
 ---
 
-## ⚙️ How to Access the Project
+⚙️ How to Access the Project
 
-### 🔹 Clone Backend
+🔹 Clone Backend
 
-```bash
 git clone -b backend https://github.com/gksiddineni/Vidzai-Digital.git
-```
 
-### 🔹 Clone Frontend
+🔹 Clone Frontend
 
-```bash
 git clone -b Frontend https://github.com/gksiddineni/Vidzai-Digital.git
-```
 
 ---
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 Python 🐍
 FastAPI ⚡
@@ -81,7 +92,7 @@ Machine Learning 🤖
 
 ---
 
-## 🚀 Features
+🚀 Features
 
 ✅ Digital eKYC verification
 ✅ Backend APIs using FastAPI
@@ -91,14 +102,14 @@ Machine Learning 🤖
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Gopala Krishna Siddineni
 🔗 https://github.com/gksiddineni
 
 ---
 
-## ⭐ Notes
+⭐ Notes
 
 Switch branches to access different modules
 Install dependencies before running backend
@@ -106,6 +117,6 @@ Recommended: use virtual environment
 
 ---
 
-## ⭐ Support
+⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
