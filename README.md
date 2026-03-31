@@ -76,26 +76,32 @@ Vidzai-Digital/
 ## 🧩 System Overview
 
 ### 🔹 Frontend
-- Built using **HTML, CSS, JavaScript**
-- Files:
-  - index.html  
-  - dashboard.html  
-  - verification_flow.html  
-  - analytics.html  
-  - alerts.html  
-  - settings.html  
-  - script.js  
-  - styles.css  
+Built using **HTML, CSS, JavaScript**
+
+**Files:**
+- index.html  
+- dashboard.html  
+- verification_flow.html  
+- analytics.html  
+- alerts.html  
+- settings.html  
+- script.js  
+- styles.css  
+
+---
 
 ### 🔹 Backend
-- Built using **Python + FastAPI**
-- Files:
-  - main.py  
-  - classify.py  
-  - document_detector.py  
-  - ocr_service.py  
-  - text_classifier.py  
-  - image_utils.py  
+Built using **Python + FastAPI**
+
+**Files:**
+- main.py  
+- classify.py  
+- document_detector.py  
+- ocr_service.py  
+- text_classifier.py  
+- image_utils.py  
+
+---
 
 ### 🔹 Machine Learning Models
 - YOLOv8 for document detection  
