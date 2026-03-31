@@ -14,9 +14,9 @@
 
 This project is separated into branches for clean organization:
 
-main → Core machine learning notebooks and documentation  
-backend → FastAPI backend, APIs, deployment, Docker  
-Frontend → UI built with HTML, CSS, JavaScript  
+- main → Core machine learning notebooks and documentation  
+- backend → FastAPI backend, APIs, deployment, Docker  
+- Frontend → UI built with HTML, CSS, JavaScript  
 
 ---
 
@@ -42,20 +42,20 @@ Vidzai-Digital/
 ├── 📄 tampering dataset (2).ipynb 
 ├── 📄 tampmodeltraining.ipynb     
 │
-├── 📄 index.html                  
+├── 📄 index.html                  # Frontend entry page
 ├── 📄 dashboard.html              
 ├── 📄 verification_flow.html      
 ├── 📄 analytics.html              
 ├── 📄 alerts.html                 
 ├── 📄 settings.html               
 │
-├── 📄 script.js                   
-├── 📄 styles.css                  
+├── 📄 script.js                   # Frontend logic
+├── 📄 styles.css                  # Frontend styling
 │
-├── 📄 requirements.txt            # Python dependencies
+├── 📄 requirements.txt            # Backend dependencies
 ├── 📄 .env                        # Environment variables
 ├── 📄 .dockerignore               
-├── 📄 Dockerfile                  # Docker configuration
+├── 📄 Dockerfile                  # Deployment config
 │
 ├── 📄 deploy.sh                   
 ├── 📄 deploy-vidzai.sh            
@@ -70,6 +70,37 @@ Vidzai-Digital/
 ├── 📄 README.md                   
 └── 📄 LICENSE
 ```
+
+---
+
+## 🧩 System Overview
+
+### 🔹 Frontend
+- Built using **HTML, CSS, JavaScript**
+- Files:
+  - index.html  
+  - dashboard.html  
+  - verification_flow.html  
+  - analytics.html  
+  - alerts.html  
+  - settings.html  
+  - script.js  
+  - styles.css  
+
+### 🔹 Backend
+- Built using **Python + FastAPI**
+- Files:
+  - main.py  
+  - classify.py  
+  - document_detector.py  
+  - ocr_service.py  
+  - text_classifier.py  
+  - image_utils.py  
+
+### 🔹 Machine Learning Models
+- YOLOv8 for document detection  
+- OCR for text extraction  
+- Face verification model  
 
 ---
 
@@ -89,20 +120,20 @@ git clone -b Frontend https://github.com/gksiddineni/Vidzai-Digital.git
 
 ## 🛠️ Tech Stack
 
-Python 🐍  
-FastAPI ⚡  
-HTML / CSS / JavaScript 🌐  
-Machine Learning 🤖  
+- Python 🐍  
+- FastAPI ⚡  
+- HTML / CSS / JavaScript 🌐  
+- Machine Learning 🤖  
 
 ---
 
 ## 🚀 Features
 
-✅ Digital eKYC verification  
-✅ Backend APIs using FastAPI  
-✅ Frontend UI for user interaction  
-✅ ML models for identity validation  
-✅ Secure and scalable architecture  
+- ✅ Digital eKYC verification  
+- ✅ Backend APIs using FastAPI  
+- ✅ Frontend UI for user interaction  
+- ✅ ML models for identity validation  
+- ✅ Secure and scalable architecture  
 
 ---
 
@@ -115,9 +146,9 @@ Gopala Krishna Siddineni
 
 ## ⭐ Notes
 
-Switch branches to access different modules  
-Install dependencies before running backend  
-Recommended: use virtual environment  
+- Switch branches to access different modules  
+- Install dependencies before running backend  
+- Recommended: use virtual environment  
 
 ---
 
