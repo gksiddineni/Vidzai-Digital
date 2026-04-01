@@ -14,9 +14,9 @@
 
 This project is separated into branches for clean organization:
 
-- main → Core machine learning notebooks and documentation  
-- backend → FastAPI backend, APIs, deployment, Docker  
-- Frontend → UI built with HTML, CSS, JavaScript  
+* **main** → Core machine learning notebooks and documentation
+* **backend** → FastAPI backend, APIs, deployment, Docker
+* **Frontend** → UI built with HTML, CSS, JavaScript
 
 ---
 
@@ -67,57 +67,81 @@ Vidzai-Digital/
 ├── 📘 DEPLOY_NOW.md               
 ├── 📘 QUICK_DEPLOY.txt            
 │
+├── 📂 docs/                       # Agile documentation
+│   ├── Agile_Template.xlsx
+│   ├── Defect_Tracker_Template.xlsx
+│   ├── Unit_Test_Plan.xlsx
+│
 ├── 📖 README.md                   
 └── 📜 LICENSE
 ```
 
 ---
 
+## 📊 Agile Documentation
+
+This project follows **Agile methodology** with sprint-based execution.
+
+📁 Available in `/docs` folder:
+
+* Sprint Planning
+* Defect Tracking
+* Unit Test Plan
+
+---
+
 ## 🧩 System Overview
 
 ### 🔹 Frontend
+
 Built using **HTML, CSS, JavaScript**
 
 **Files:**
-- index.html  
-- dashboard.html  
-- verification_flow.html  
-- analytics.html  
-- alerts.html  
-- settings.html  
-- script.js  
-- styles.css  
+
+* index.html
+* dashboard.html
+* verification_flow.html
+* analytics.html
+* alerts.html
+* settings.html
+* script.js
+* styles.css
 
 ---
 
 ### 🔹 Backend
+
 Built using **Python + FastAPI**
 
 **Files:**
-- main.py  
-- classify.py  
-- document_detector.py  
-- ocr_service.py  
-- text_classifier.py  
-- image_utils.py  
+
+* main.py
+* classify.py
+* document_detector.py
+* ocr_service.py
+* text_classifier.py
+* image_utils.py
 
 ---
 
 ### 🔹 Machine Learning Models
-- YOLOv8 for document detection  
-- OCR for text extraction  
-- Face verification model  
+
+* YOLOv8 for document detection
+* OCR for text extraction
+* Face verification model
 
 ---
 
 ## ⚙️ How to Access the Project
 
 ### 🔹 Clone Backend
+
 ```bash
 git clone -b backend https://github.com/gksiddineni/Vidzai-Digital.git
 ```
 
 ### 🔹 Clone Frontend
+
 ```bash
 git clone -b Frontend https://github.com/gksiddineni/Vidzai-Digital.git
 ```
@@ -126,35 +150,35 @@ git clone -b Frontend https://github.com/gksiddineni/Vidzai-Digital.git
 
 ## 🛠️ Tech Stack
 
-- Python 🐍  
-- FastAPI ⚡  
-- HTML / CSS / JavaScript 🌐  
-- Machine Learning 🤖  
+* Python 🐍
+* FastAPI ⚡
+* HTML / CSS / JavaScript 🌐
+* Machine Learning 🤖
 
 ---
 
 ## 🚀 Features
 
-- ✅ Digital eKYC verification  
-- ✅ Backend APIs using FastAPI  
-- ✅ Frontend UI for user interaction  
-- ✅ ML models for identity validation  
-- ✅ Secure and scalable architecture  
+* ✅ Digital eKYC verification
+* ✅ Backend APIs using FastAPI
+* ✅ Frontend UI for user interaction
+* ✅ ML models for identity validation
+* ✅ Secure and scalable architecture
 
 ---
 
 ## 👨‍💻 Author
 
-Gopala Krishna Siddineni  
-🔗 https://github.com/gksiddineni  
+**Gopala Krishna Siddineni**
+🔗 https://github.com/gksiddineni
 
 ---
 
 ## ⭐ Notes
 
-- Switch branches to access different modules  
-- Install dependencies before running backend  
-- Recommended: use virtual environment  
+* Switch branches to access different modules
+* Install dependencies before running backend
+* Recommended: use virtual environment
 
 ---
 
