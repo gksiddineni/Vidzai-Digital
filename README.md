@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 https://vidz-ai-frontend.vercel.app/dashboard
+🔗 https://vidz-ai-frontend.vercel.app/dashboard/
 
 ---
 
@@ -22,6 +22,7 @@ This project is separated into branches for clean organization:
 
 ## 📁 Project Structure
 
+```
 Vidzai-Digital/
 │
 ├── 🐍 main.py                      # FastAPI backend entry point
@@ -73,6 +74,7 @@ Vidzai-Digital/
 │
 ├── 📖 README.md                   
 └── 📜 LICENSE
+```
 
 ---
 
@@ -108,6 +110,81 @@ Built using **HTML, CSS, JavaScript**
 ---
 
 ### 🔹 Backend
+
+Built using **Python + FastAPI**
+
+**Files:**
+
+* main.py
+* classify.py
+* document_detector.py
+* ocr_service.py
+* text_classifier.py
+* image_utils.py
+
+---
+
+### 🔹 Machine Learning Models
+
+* YOLOv8 for document detection
+* OCR for text extraction
+* Face verification model
+
+---
+
+## ⚙️ How to Access the Project
+
+### 🔹 Clone Backend
+
+```bash
+git clone -b backend https://github.com/gksiddineni/Vidzai-Digital.git
+```
+
+### 🔹 Clone Frontend
+
+```bash
+git clone -b Frontend https://github.com/gksiddineni/Vidzai-Digital.git
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* Python 🐍
+* FastAPI ⚡
+* HTML / CSS / JavaScript 🌐
+* Machine Learning 🤖
+
+---
+
+## 🚀 Features
+
+* ✅ Digital eKYC verification
+* ✅ Backend APIs using FastAPI
+* ✅ Frontend UI for user interaction
+* ✅ ML models for identity validation
+* ✅ Secure and scalable architecture
+
+---
+
+## 👨‍💻 Author
+
+**Gopala Krishna Siddineni**
+🔗 https://github.com/gksiddineni
+
+---
+
+## ⭐ Notes
+
+* Switch branches to access different modules
+* Install dependencies before running backend
+* Recommended: use virtual environment
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
 
 Built using **Python + FastAPI**
 
