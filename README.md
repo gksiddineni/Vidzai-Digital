@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 https://vidz-ai-git-frontend-daves-projects-f7f915af.vercel.app/
+🔗 https://vidz-ai-frontend.vercel.app/dashboard
 
 ---
 
@@ -22,7 +22,6 @@ This project is separated into branches for clean organization:
 
 ## 📁 Project Structure
 
-```
 Vidzai-Digital/
 │
 ├── 🐍 main.py                      # FastAPI backend entry point
@@ -74,7 +73,6 @@ Vidzai-Digital/
 │
 ├── 📖 README.md                   
 └── 📜 LICENSE
-```
 
 ---
 
@@ -136,15 +134,11 @@ Built using **Python + FastAPI**
 
 ### 🔹 Clone Backend
 
-```bash
 git clone -b backend https://github.com/gksiddineni/Vidzai-Digital.git
-```
 
 ### 🔹 Clone Frontend
 
-```bash
 git clone -b Frontend https://github.com/gksiddineni/Vidzai-Digital.git
-```
 
 ---
 
